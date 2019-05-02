@@ -10,7 +10,7 @@
 
     if(!$connect){
         echo "Connect ERROR !!!!!!!!";
-        echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
+        echo "Debugging erro: " . mysqli_connect_errno() . PHP_EOL;
         die();
     }
 ?>

@@ -18,7 +18,6 @@
                     $mess = 'Lỗi không sửa được !!!!!!!!';
                 }
             }
-
             if(isset($_GET['action']) && $_GET['action'] == 'delete'){
                 $sql = "DELETE FROM `user` WHERE id = ".$_GET["id"];
                 $result = $this->model->Success($sql);

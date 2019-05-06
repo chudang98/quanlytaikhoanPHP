@@ -28,6 +28,9 @@
 
             }
         }
+        public function logIN(){
+            
+        }
     }
     new ControllerLogin();
 ?>
